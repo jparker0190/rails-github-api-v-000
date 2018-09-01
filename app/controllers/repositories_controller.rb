@@ -15,6 +15,6 @@ class RepositoriesController < ApplicationController
       'Authorization' => "token #{session[:token]}"
     }
     render :index
-  end	  end
+  end
 
 end
